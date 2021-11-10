@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/n1"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="42sp"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:gravity="center"
+                android:paddingTop="60dp"
+                android:orientation="horizontal"
+                android:paddingBottom="60dp"
+                >
+
+                <Button
+                    android:id="@+id/btn_play"
+                    android:onClick="playGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/btn_jugar"
+                    android:textSize="30sp"
+                    ></Button>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <EditText
+                        android:id="@+id/edit_usuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:textAlignment="center"
+                        android:background="@color/white"
+                        android:hint="Usuario"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:textColor="@color/black"
+                        ></EditText>
+                    <EditText
+                        android:id="@+id/edit_contraseña"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:textAlignment="center"
+                        android:background="@color/white"
+                        android:hint="Contraseña"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        ></EditText>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="@string/btn_perfil"
+                        android:textSize="30sp"></Button>
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/btn_ajustes"
+                    android:textSize="30sp"></Button>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/btn_acerca"
+                    android:textSize="30sp"></Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

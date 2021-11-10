@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Challenges 1Y2</string>
+
+    <string name="btn_jugar">Play</string>
+    <string name="btn_perfil">Profile</string>
+    <string name="btn_ajustes">Config</string>
+    <string name="btn_acerca">About</string>
+    <string name="darkMode">Dark_Mode</string>
+
+    <string name="btn_regresar">Return</string>
+
+    <string name="act_search">Search</string>
+    <string name="act_preferences">Preferences</string>
+    <string name="act_logout">Logout</string>
+
+</resources>

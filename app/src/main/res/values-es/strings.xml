@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Retos 1Y2</string>
+
+    <string name="btn_jugar">Jugar</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="btn_ajustes">Ajustes</string>
+    <string name="btn_acerca">Acerca</string>
+    <string name="darkMode">Modo Oscuro</string>
+    <string name="btn_regresar">Regresar</string>
+    <string name="act_search">txt_act_search</string>
+    <string name="act_preferences">txt_act_preferences</string>
+    <string name="act_logout">txt_act_preferences</string>
+</resources>
